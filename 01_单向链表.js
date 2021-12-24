@@ -68,7 +68,7 @@ fruits.insert('水果2', '水果1');
 fruits.insert('水果3', '水果2');
 fruits.insert('水果4', '水果3');
 fruits.remove('水果2');
-console.log(fruits.display())                   // ['Apple', 'Pear', 'Grape']
+console.log(fruits.display())                   // [ '水果1', '水果3', '水果4' ]
 
 
 
