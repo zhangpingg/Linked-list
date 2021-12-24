@@ -63,11 +63,11 @@ function display() {
 
 // 示例
 var fruits = new LList();
-fruits.insert('Apple', 'head');
-fruits.insert('Banana', 'Apple');
-fruits.insert('Pear', 'Banana');
-fruits.insert('Grape', 'Pear');
-fruits.remove('Banana');
+fruits.insert('水果1', 'head');
+fruits.insert('水果2', '水果1');
+fruits.insert('水果3', '水果2');
+fruits.insert('水果4', '水果3');
+fruits.remove('水果2');
 console.log(fruits.display())                   // ['Apple', 'Pear', 'Grape']
 
 
